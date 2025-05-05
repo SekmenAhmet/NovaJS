@@ -1,0 +1,37 @@
+{
+  "name": "novajs",
+  "version": "0.0.1",
+  "description": "Micro-framework Typescript",
+  "keywords": [
+    "http",
+    "novajs"
+  ],
+  "homepage": "https://github.com/SekmenAhmet/NovaJS#readme",
+  "bugs": {
+    "url": "https://github.com/SekmenAhmet/NovaJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SekmenAhmet/NovaJS.git"
+  },
+  "license": "ISC",
+  "author": "Ahmet Sekmen",
+  "type": "commonjs",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0",
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.9"
+  }
+}
